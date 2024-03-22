@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raquel Luna">
+    <title>Cadastro</title>
+</head>
+<body>
+  <section class="container">
+    <header>Cadastro</header>
+   <form action="#" class="form">
+    <div class="input-box">
+        <label>Nome</label>
+        <input type="text" placeholder="Coloque seu nome completo" required>
+    </div>
+<div class="input-box">
+    <label>Email</label>
+    <input type="text" placeholder="Coloque seu Email" required>
+</div>  
+<div class="column">
+    <div class="input-box">
+        <label>Telefone</label>
+        <input type="number" placeholder="Número do celular" required>
+    </div>
+<div class="input-box">
+    <label>Data de aniversario</label>
+    <input type="date" placeholder="Coloque a data de aniversario" required>
+</div>
+</div>
+<div class="gender-box">
+    <h3>Sexo</h3>
+    <div class="gender-option">
+        <div class="gender">
+            <input type="radio" id="check-male" name="gender" checked>
+            <label for="check-male">Masculino</label>
+        </div>
+    <div class="gender">
+        <input type="radio" id="check-famale" name="gender">
+        <label for="check-famale">Feminino</label>
+    </div>
+<div class="gender">
+    <input type="radio" id="check-other" name="gender">
+    <label for="check-other">Prefiro não dizer</label>
+</div>    
+</div>
+</div>
+<div class="input-box address">
+    <label>Endereço</label>
+    <input type="text" placeholder="Coloque endereço 'casa'" required>
+    <input type="text" placeholder="Coloque endereço 'trabalho'" required>
+    <div class="column">
+        <div class="select-box">
+   <select>
+    <option hidden>Cidade</option>
+    <option>São Paulo</option>
+    <option>Fortaleza</option>
+    <option>Recife</option>
+    <option>Rio de Janeiro</option>
+   </select>
+    </div> 
+<input type="text" placeholder="Coloque a cidade'casa'" required>
+</div>
+<div class="column">
+    <input type="text" placeholder="Coloque a cidade 'trabalho'" required>
+    <input type="number" placeholder="Número caixa postal" required>
+</div>
+</div>
+<button>Pronto!</button>
+</section>
+</form>
+</body>
+</html>
